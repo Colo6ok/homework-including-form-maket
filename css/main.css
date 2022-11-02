@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-box{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box{
+    margin-bottom: 30px;
+}
+
+.box-img{
+    border-radius: 50%;
+}
+
+.box-list{
+    width:600px;
+    margin: 0 auto;
+}
+
+.box-title{
+    font-size: 42px;
+    margin-bottom: 10px; 
+}
+
+.box-desc{
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* main (intro) section */
+.main{
+    margin-bottom: 80px;
+}
+
+
+
+.intro {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.intro-inner{
+    /* width: 440px; */
+    background-color: whitesmoke;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.box-inner{
+    margin-bottom: 30px;
+}
+
+.intro-title{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.intro-desc{
+    line-height: 22px;
+    /* width: 360px; */
+}
+
+.sub-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-label {
+    display: inline-block;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.box-input {
+    width: 450px;
+    /* border: none; */
+    padding: 7px;
+    font-size: 18px;
+    outline: none;
+    border: 0 solid transparent;
+}
+
+.box-input:focus {
+    border: 1px solid gold;
+}
+
+.inner-label-box{
+    padding-bottom: 20px;
+}
+
+.intro-button{
+    text-align: right;
+    padding-right: 15px;
+}
+
+.button {
+    background-color: #35AA6B;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+
+/* services section */
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-title{
+    /* font-size: 20px; */
+    margin-bottom: 10px;
+}
+
+.services-desc{
+    margin-bottom: 20px;
+    width: 350px;
+    font-size: 18px;
+    color: grey;
+}
+
+
+/* footer section */
+.footer-order {
+    display: flex;
+    /* align-items: center; */
+}
+
+.footer-img{
+    border-radius: 50%;
+}
+
+.footer-desc{
+    padding-left: 20px;
+    line-height: 25px;
+    color: grey;
+}
+
+.footer-box{
+    position: relative;
+    top: -30px;
+    left: 12%;
+}
+
+.footer-box-desc{
+    color: grey;
+}
+
+.box-span {
+    color: black;
+    font-weight: bold;
+}
